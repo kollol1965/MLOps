@@ -1,6 +1,6 @@
 variables:
   #IMPORTANT: Update BASE_NAME with your GLOBALLY unique name. Rules: No underscore, max 10 chars & all lower case
-  BASE_NAME: 'ksg'
+  BASE_NAME: 'ksg1'
   #If you want to use an existing workspace, change all the below values according to current setup
   WORKSPACE: '${{ variables.BASE_NAME }}-ws'
   RESOURCE_GROUP: '${{ variables.BASE_NAME }}-rg'
@@ -12,7 +12,7 @@ variables:
   #Configuration information
   AML_COMPUTE_SKU: 'STANDARD_DS4_V2'
   AML_COMPUTE_CLUSTER: 'amlcluster'
-  AKS_CLUSTER: 'akscluster'
+  AKS_CLUSTER: 'ksg1'
   LOCATION: 'eastus2'
   MODEL_NAME: 'risk-model'
   DATASET_FILE_NAME: 'german_credit_data.csv'
